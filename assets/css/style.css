@@ -1,0 +1,660 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+   background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px; 
+  
+}
+    
+
+.main-iteam{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-iteam a{
+    text-decoration: none;
+    color: #333;
+    transition: .5s ;
+    
+}
+
+.main-iteam a:hover{
+    color: coral;
+}
+
+
+
+/* second section */
+
+.container-second{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.second-section{
+    height: 250px;
+    width: 450px;
+   
+   
+}
+
+.second-section h1{
+    font-size: 45px;
+}
+
+
+.second-section p{
+
+    padding:10px;
+
+}
+
+
+.last-section img{
+    height: 250px;
+   
+}
+
+
+/* second section end */
+
+
+
+
+
+/* 
+third section start */
+
+
+.container-third{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.content-third h1 {
+    text-align: center;
+
+}
+
+.content-third p{
+    line-height: 30px;
+    font-size: 14px;
+    padding: 20px 270px;
+}
+
+.card-grid{
+    max-width: 1200px;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+
+.card{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 460px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 50%;
+   
+}
+
+
+
+.card h3{
+   font-size: 20px;
+    color: #333;
+    margin-top: 80px;
+  
+}
+
+.card p{
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.card a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    transition: .5s;
+
+   
+}
+
+
+.card a:hover{
+    background-color: rgb(246, 65, 0);
+    color: rgb(61, 39, 4);
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+    
+}
+
+ .card:hover{
+     box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+     }
+
+
+
+
+     /* third section end */
+
+
+
+
+
+     /* forth section start */
+
+
+
+
+.container-forth{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.content-forth img{
+    height: 350px;
+    width: 500px;
+}
+
+.mid-content h2{
+    font-size: 35px;
+    margin: 5px 40px;
+}
+
+.mid-content p{
+    font-size: 15px;
+}
+
+
+.mid-content li{
+    padding: 10px 20px;
+}
+
+.main-logo img{
+    height: 150px;
+    top: -50px;
+    left: 420px;
+    width: 150px;
+    position: absolute;
+    
+}
+
+
+
+/* forth section end */
+
+
+
+
+/* fifth section start */
+
+
+.container-fifth{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 150px;
+   
+}
+
+
+.content-fifth h1{
+    text-align: center;
+}
+
+.content-fifth p{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 260px;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.left{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.image-box{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.image-box img{
+    display: block;
+    object-fit: cover;
+     
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.overlay h2{
+   margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.overlay p{
+     font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.right .overlay h2{
+    font-size: 30px;
+   margin-top: 130px;
+}
+
+
+.right .overlay p{
+    font-size: 25px;
+  margin-bottom: 110px;
+  font-weight: bold;
+}
+
+
+/* join section start */
+
+
+.subscribe-section{
+      background-image: url('../images/news-letter-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+  
+}
+
+   
+
+.overlay-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0;
+    margin-top: 180px;
+  
+  
+}
+
+.subscribe-box{
+      position: relative;
+      z-index: 1;
+      display: flex;
+      height: 65px;
+      justify-content: center;
+      align-items: center;
+     
+}
+
+.subscribe-box .input-design {
+  
+   padding: 10px 30px;
+    border: 1px solid black;
+   outline: none;
+   width: 500px;
+  
+}
+
+
+.subscribe-box button{
+   
+    padding: 10px 20px;
+    border: none;
+   
+   
+}
+
+
+
+/* footer section start */
+
+
+.section-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.container-bg{
+    /* background-color: rgba(255, 228, 196, 0.708); */
+}
+
+.footer-content{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    
+    
+}
+
+.footer-logo img{
+    height: 90px;
+    width: 90px;
+
+}
+
+.footer-logo p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-links h3{
+     margin-bottom: 20px;
+}
+  
+   
+
+
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+   color: coral;
+}
+
+.footer-social h3{
+    margin-bottom: 20px;
+}
+
+.footer-social a{
+   background-color: coral;
+   padding: 6px ;
+   margin: 6px;
+   border-radius: 50%;
+   border: 1px solid rgb(253, 173, 173);
+   color: rgb(193, 12, 12);
+   transition: color 0.5s ease;
+  
+   
+}
+
+.footer-social a:hover{
+    background-color: rgb(195, 8, 70);
+    color: #ffffff;
+}
+
+/* footer section end */
+
+
+/* responsive start
+ */
+
+
+ 
+@media (max-width: 480px) {
+
+    /* Navbar mobile view: only logo and cart icon */
+    .main-section {
+        justify-content: space-between;
+    }
+
+    .main-iteam a {
+        display: none;
+    }
+
+    .main-iteam span {
+        display: block;
+    }
+
+    /* Second section - image upore, text niche */
+    .container-second {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        /* margin-top: 50px; */
+        padding: 0 20px;
+    }
+
+    .second-section {
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .second-section h1 {
+        font-size: 30px;
+    }
+
+    .second-section p {
+        padding: 10px;
+    }
+
+    .last-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Third section */
+    .content-third p {
+        padding: 10px;
+    }
+
+    .card{
+        margin: 0px 40px;
+      
+    }
+
+
+    /* Fourth section */
+    .container-forth {
+         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 0 10px;
+        position: relative;
+       
+    }
+
+    
+.content-forth img{
+    height: 250px;
+    width: 400px;
+}
+
+.main-logo{
+   
+   left: -80px;
+    position: absolute;
+}
+       
+ 
+
+    .mid-content h2 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .mid-content ul {
+        padding: 0;
+    }
+
+    .mid-content li {
+        padding: 10px 0;
+    }
+
+    
+    .main-logo img {
+      
+        margin: 10px auto;
+       
+    }
+
+    /* Fifth section */
+    .image-container {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .right .overlay h2 {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .right .overlay p {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .overlay h2,
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .content-fifth p {
+        margin: 10px;
+    }
+
+    
+.image-box img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+     
+    
+}
+
+    /* Subscribe section */
+    .subscribe-box {
+       
+        display: flex;
+        /* gap: 10px; */
+        padding: 0 10px;
+    }
+
+    .subscribe-box .input-design,
+    .subscribe-box button {
+        width: 50%;
+    }
+
+    /* Footer section */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .footer-links,
+    .footer-logo,
+    .footer-social {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* responsive end */
+
+
+
+
+
